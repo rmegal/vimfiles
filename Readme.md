@@ -4,6 +4,7 @@ I got the idea for this from @noopkat and used her vim-setup.sh script as a patt
 
 ## Plugins
 
+* PProvost/vim-ps1
 * airblade/vim-gitgutter
 * drewtempelmeyer/palenight.vim
 * kien/ctrlp.vim
@@ -13,9 +14,11 @@ I got the idea for this from @noopkat and used her vim-setup.sh script as a patt
 * scrooloose/nerdtree
 * terryma/vim-multiple-cursors
 * tpope/vim-abolish
+* tpope/vim-dispatch
 * tpope/vim-pathogen
 * vim-airline/vim-airline
 * vim-airline/vim-airline-themes
+* vim-syntastic/syntastic
 
 ## Install
 

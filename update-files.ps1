@@ -6,18 +6,21 @@ $autoloadDir = "autoload"
 Set-LocationEx $baseDir
 
 $plugins = @(
-  "kien/ctrlp.vim",
-  "vim-airline/vim-airline",
-  "vim-airline/vim-airline-themes",
-  "scrooloose/nerdtree",
-  "tpope/vim-pathogen",
-  "terryma/vim-multiple-cursors",
+  "PProvost/vim-ps1",
   "airblade/vim-gitgutter",
+  "drewtempelmeyer/palenight.vim",
+  "kien/ctrlp.vim",
   "leafgarland/typescript-vim",
   "neoclide/vim-jsx-improve",
   "posva/vim-vue",
-  "drewtempelmeyer/palenight.vim",
-  "tpope/vim-abolish"
+  "scrooloose/nerdtree",
+  "terryma/vim-multiple-cursors",
+  "tpope/vim-abolish",
+  "tpope/vim-dispatch",
+  "tpope/vim-pathogen",
+  "vim-airline/vim-airline",
+  "vim-airline/vim-airline-themes",
+  "vim-syntastic/syntastic"
 )
 
 foreach ($plugin in $plugins)

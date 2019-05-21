@@ -12,7 +12,7 @@
 	branch = master
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
-	url = git://github.com/tpope/vim-dispatch.git
+	url = https://github.com/tpope/vim-dispatch.git
 	branch = master
 [submodule "bundle/vim-ps1"]
 	path = bundle/vim-ps1
