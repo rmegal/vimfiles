@@ -6,6 +6,7 @@ I got the idea for this from @noopkat and used her vim-setup.sh script as a patt
 
 * PProvost/vim-ps1
 * airblade/vim-gitgutter
+* dracula/vim
 * drewtempelmeyer/palenight.vim
 * kien/ctrlp.vim
 * leafgarland/typescript-vim
