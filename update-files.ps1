@@ -37,7 +37,7 @@ copy-item $sourceFile $targetFile # -whatif
 <#
  # Placing the dracula theme in the correct location for pathogen
  #>
-git submodule add -b master https://github.com/dracula/vim.git bundle/dracula-theme
+git submodule add -b master https://github.com/dracula/vim.git bundle/dracula
 
 &git submodule update --recursive --remote
 

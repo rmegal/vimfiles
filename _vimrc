@@ -32,7 +32,7 @@ endif
 
 set background=dark
 " colorscheme palenight
-color dracula
+colorscheme dracula
 
 set smartindent
 set clipboard=unnamed " use os clipboard
