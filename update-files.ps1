@@ -1,6 +1,5 @@
 $baseDir = join-path $env:userprofile "vimfiles"
 $pluginDir = "bundle"
-$colorsDir = "colors"
 $autoloadDir = "autoload"
 
 Set-LocationEx $baseDir
@@ -31,25 +30,20 @@ foreach ($plugin in $plugins)
     Invoke-Expression $command
 }
 
+$sourceFile = join-path $plugindir "vim-pathogen\autoload\pathogen.vim"
+$targetFile = join-path $autoloadDir "pathogen.vim"
+copy-item $sourceFile $targetFile # -whatif
+
+<#
+ # Placing the dracula theme in the correct location for pathogen
+ #>
+git submodule add -b master https://github.com/dracula/vim.git bundle/dracula-theme
+
+&git submodule update --recursive --remote
+
 <#
  # Attach HEAD and pickup latest commits
  #>
 Get-ChildItem $pluginDir -Directory | % { Set-LocationEx $_.FullName; git pull origin master; git checkout master; git pull }
 Set-LocationEx $baseDir
-
-$sourceFile = join-path $plugindir "vim-pathogen\autoload\pathogen.vim"
-$targetFile = join-path $autoloadDir "pathogen.vim"
-copy-item $sourceFile $targetFile # -whatif
-
-git submodule add -b master https://github.com/dracula/vim.git bundle/dracula-theme
-
-$sourceFile = join-path $plugindir "dracula-theme\colors\dracula.vim"
-$targetFile = join-path $colorsDir "dracula.vim"
-copy-item $sourceFile $targetFile # -whatif
-
-$sourceFile = join-path $plugindir "palenight.vim\colors\palenight.vim"
-$targetFile = join-path $colorsDir "palenight.vim"
-copy-item $sourceFile $targetFile # -whatif
-
-&git submodule update --recursive --remote
 

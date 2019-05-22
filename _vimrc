@@ -27,11 +27,12 @@ if (has("termguicolors"))
 endif
 
 " let g:dracula_italic=0
-let g:palenight_terminal_italics=1
+" let g:palenight_terminal_italics=1
 
-" color dracula
+
 set background=dark
-colorscheme palenight
+" colorscheme palenight
+color dracula
 
 set smartindent
 set clipboard=unnamed " use os clipboard
