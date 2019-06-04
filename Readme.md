@@ -24,9 +24,22 @@ I got the idea for this from @noopkat and used her vim-setup.sh script as a patt
 ## Install
 
 * Clone to Home directory \($env:USERPROFILE on Windows\)
-* git submodule init
-* git submodule update
-* .\update-files.ps1
+
+    ```
+    git clone --recursive https://github.com/rmegal/vimfiles.git
+    ```
+
+    or
+
+    ```
+    git clone --recursive https://github.com/rmegal/vimfiles.git
+    cd vimfiles
+    git submodule init
+    git submodule update
+    ```
+
+* Copy \_vimrc to Home directory
+* Optionally run `.\update-files.ps1` to pick up changes in submodules.
 
 ## Manage Plugins
 
