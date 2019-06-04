@@ -32,7 +32,7 @@ I got the idea for this from @noopkat and used her vim-setup.sh script as a patt
     or
 
     ```
-    git clone --recursive https://github.com/rmegal/vimfiles.git
+    git clone https://github.com/rmegal/vimfiles.git
     cd vimfiles
     git submodule init
     git submodule update
