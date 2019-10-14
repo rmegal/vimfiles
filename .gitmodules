@@ -58,3 +58,6 @@
 	path = bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
 	branch = master
+[submodule "pack\\my-plugins\\start\\dracula"]
+	path = pack\\my-plugins\\start\\dracula
+	url = https://github.com/dracula/vim.git
