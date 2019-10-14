@@ -32,6 +32,7 @@ endif
 
 set background=dark
 " colorscheme palenight
+packadd! dracula " This is necessary when using Vim 8's |packages| feature
 colorscheme dracula
 
 set smartindent
