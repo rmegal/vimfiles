@@ -1,63 +1,42 @@
-[submodule "bundle/ctrlp.vim"]
-	path = bundle/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
-	branch = master
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
-	branch = master
-[submodule "bundle/vim-dispatch"]
-	path = bundle/vim-dispatch
-	url = https://github.com/tpope/vim-dispatch.git
-	branch = master
-[submodule "bundle/vim-ps1"]
-	path = bundle/vim-ps1
-	url = https://github.com/PProvost/vim-ps1.git
-	branch = master
-[submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
-	url = https://github.com/vim-airline/vim-airline.git
-	branch = master
-[submodule "bundle/vim-airline-themes"]
-	path = bundle/vim-airline-themes
-	url = https://github.com/vim-airline/vim-airline-themes.git
-	branch = master
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-	branch = master
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
-	branch = master
-[submodule "bundle/vim-multiple-cursors"]
-	path = bundle/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors.git
-	branch = master
-[submodule "bundle/vim-gitgutter"]
-	path = bundle/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter.git
-	branch = master
-[submodule "bundle/typescript-vim"]
-	path = bundle/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim.git
-	branch = master
-[submodule "bundle/vim-jsx-improve"]
-	path = bundle/vim-jsx-improve
-	url = https://github.com/neoclide/vim-jsx-improve.git
-	branch = master
-[submodule "bundle/vim-vue"]
-	path = bundle/vim-vue
-	url = https://github.com/posva/vim-vue.git
-	branch = master
-[submodule "bundle/palenight.vim"]
-	path = bundle/palenight.vim
-	url = https://github.com/drewtempelmeyer/palenight.vim.git
-	branch = master
-[submodule "bundle/vim-abolish"]
-	path = bundle/vim-abolish
-	url = https://github.com/tpope/vim-abolish.git
-	branch = master
 [submodule "pack\\my-plugins\\start\\dracula"]
 	path = pack\\my-plugins\\start\\dracula
 	url = https://github.com/dracula/vim.git
+[submodule "pack\\my-plugins\\start\\ctrlp.vim"]
+	path = pack\\my-plugins\\start\\ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "pack\\my-plugins\\start\\syntastic"]
+	path = pack\\my-plugins\\start\\syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "pack\\my-plugins\\start\\vim-dispatch"]
+	path = pack\\my-plugins\\start\\vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
+[submodule "pack\\my-plugins\\start\\vim-ps1"]
+	path = pack\\my-plugins\\start\\vim-ps1
+	url = https://github.com/PProvost/vim-ps1.git
+[submodule "pack\\my-plugins\\start\\vim-airline"]
+	path = pack\\my-plugins\\start\\vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack\\my-plugins\\start\\vim-airline-themes"]
+	path = pack\\my-plugins\\start\\vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack\\my-plugins\\start\\nerdtree"]
+	path = pack\\my-plugins\\start\\nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack\\my-plugins\\start\\vim-multiple-cursors"]
+	path = pack\\my-plugins\\start\\vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "pack\\my-plugins\\start\\vim-gitgutter"]
+	path = pack\\my-plugins\\start\\vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "pack\\my-plugins\\start\\typescript-vim"]
+	path = pack\\my-plugins\\start\\typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack\\my-plugins\\start\\vim-jsx-improve"]
+	path = pack\\my-plugins\\start\\vim-jsx-improve
+	url = https://github.com/neoclide/vim-jsx-improve.git
+[submodule "pack\\my-plugins\\start\\vim-vue"]
+	path = pack\\my-plugins\\start\\vim-vue
+	url = https://github.com/posva/vim-vue.git
+[submodule "pack\\my-plugins\\start\\vim-abolish"]
+	path = pack\\my-plugins\\start\\vim-abolish
+	url = https://github.com/tpope/vim-abolish.git

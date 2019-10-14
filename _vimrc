@@ -4,12 +4,6 @@ au GUIEnter * simalt ~x
 " Make vim behave like Winodws app (e.g. Use CUA keystrokes for clipboard: CTRL-X, CTRL-C, CTRL-V and CTRL-z)
 source $VIMRUNTIME/mswin.vim
 
-"============================================================
-" Start pathogen
-"============================================================
-execute pathogen#infect()
-call pathogen#helptags()
-
 " set runtimepath^=~/.vim/bundle/ctrlp.vim
 " set runtimepath^=~/.vim/bundle/vim-airline/plugin/airline.vim
 
