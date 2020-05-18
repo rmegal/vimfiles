@@ -1,6 +1,6 @@
 # My Vim Configuration
 
-I got the idea for this from @noopkat and used her vim-setup.sh script as a pattern for the update-files.ps1 script found here. Building my script using PowerShell was natural for me since I work almost exclusively on Windows and use PowerShell daily.
+I got the idea for this from [@noopkat](https://github.com/noopkat) and used her vim-setup.sh script as a pattern for the update-files.ps1 script found here. Building my script using PowerShell was natural for me since I work almost exclusively on Windows and use PowerShell daily.
 
 I recently moved to Vim's Package Manager from Pathogen. Mr. Pope said to. I used the setup-packages script to do the work. Thanks to [@shapeshed](https://shapeshed.com/vim-packages/) for the nice overview.
 
