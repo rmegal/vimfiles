@@ -20,6 +20,9 @@ if (has("termguicolors"))
   set termguicolors
 endif
 
+let g:gitgutter_git_executable='C:\Program Files\Git\bin\git.exe'
+let g:gitgutter_grep=''
+
 " let g:dracula_italic=0
 " let g:palenight_terminal_italics=1
 
@@ -59,7 +62,14 @@ set scrolloff=0 " use entire window for scroll commands
 set guioptions+=m  " Show menu bar
 set guioptions-=T " No toolbar
 
-set guifont=Consolas:h13:cANSI " Consolas 15 point, ansi character set 
+" set guifont=Consolas:h13:cANSI " Consolas 13 point, ansi character set 
+set guifont=Cascadia\ Code:h11:cANSI
+
+" The following 3 lines enables the use of the Fira Code font.
+" Note: Fira Code (Chocolatey package firacode-ttf) broken starting in gVim 8.2.0796 - 20200520, megal
+" set renderoptions=type:directx
+" set encoding=utf-8
+" set guifont=Fira\ Code:h11
 
 " airline
 let g:airline_theme = 'dracula'
