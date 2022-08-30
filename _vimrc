@@ -115,7 +115,7 @@ endif
 # Use ESC key to turn off incremental search highlighting
 nnoremap <esc> :noh<return><esc>
 
-$macros = 'C:\Users\Ray\Documents\vimmacros'
+$macros = '$HOME\OneDrive\Documents\vimmacros'
 
 # Restore Screen Size: Tip 1569 https://vim.fandom.com/wiki/Restore_screen_size_and_position
 if has("gui_running")
