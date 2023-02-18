@@ -65,7 +65,7 @@ set guioptions-=T # No toolbar
 
 # set guifont=Consolas:h13:cANSI # Consolas 13 point, ansi character set 
 # set guifont=Cascadia\ Code:h12:cANSI
-set guifont=CaskaydiaCove\ NF:h12:cANSI
+set guifont=CaskaydiaCove\ NFM:h12:cANSI
 
 # The following 3 lines enables the use of the Fira Code font.
 # Note: Fira Code (Chocolatey package firacode-ttf) broken starting in gVim 8.2.0796 - 20200520, megal
